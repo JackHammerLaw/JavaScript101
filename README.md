@@ -1,7 +1,5 @@
 # JavaScript101
 
-# LETS GOOOOOO!
-
 ## Environment set up:
 
 ---
@@ -40,7 +38,7 @@
 - [HTML](https://www.youtube.com/watch?v=UB1O30fR-EE)
 - [CSS](https://www.youtube.com/watch?v=r1xBCi5SOjw)
 - [Github](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
-- [Javascript (Basics)](ttps://www.youtube.com/watch?v=hdI2bqOjy3c)
+- [Javascript (Basics)](https://www.youtube.com/watch?v=hdI2bqOjy3c)
 - [Javascript (Object Oriented Programming)](https://www.youtube.com/watch?v=vDJpGenyHaA)
 - [Javascript (Promises)](https://www.youtube.com/watch?v=vDJpGenyHaA)
 - [NodeJs](https://www.youtube.com/watch?v=fBNz5xF-Kx4)
