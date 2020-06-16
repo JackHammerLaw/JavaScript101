@@ -12,20 +12,12 @@ function removeLastElement() {
   return numbersArray;
 }
 
-// Insert the element 'grape' in between banana and orange
-function insertElementAtIndex() {
-  const fruitsArray = ["apple", "banana", "orange"];
-
-  //Wrie your code here
-
-  return fruitsArray;
-}
-
 // Insert 'grape' after 'banana'
 function insertElementAtIndex() {
   const fruitsArray = ["apple", "banana", "orange"];
 
   //Wrie your code here
+  fruitsArray.splice(2, 0, "grape");
 
   return fruitsArray;
 }
@@ -35,7 +27,7 @@ function removeElementAtIndex() {
   const carsArray = ["toyota", "honda", "mercedez", "hummer"];
 
   //Wrie your code here
-
+  carsArray.splice(2, 1);
   return carsArray;
 }
 
