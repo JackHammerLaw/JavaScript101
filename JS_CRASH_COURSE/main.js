@@ -6,20 +6,21 @@ console.log(s.split(","));
 
 const fruits = ["apples", "oranges", "pears", 10, true];
 
+// Assigning index 3 value of 'grapes'
 fruits[3] = "grapes";
 
+// Adds element to end of the array
 fruits.push("mangos");
-
+// Adds new item to beggining of array
 fruits.unshift("strawberries");
-
+// Removes last element from array
 fruits.pop();
 
 console.log(Array.isAtrray("hello"));
-
 console.log(fruits.indexOf("oranges"));
-
 console.log(fruits);
 
+// Javascript Object
 const person = {
   firstName: "John",
   lastName: "Doe",
@@ -32,8 +33,10 @@ const person = {
   },
 };
 
+// Assigning property email of person a value
 person.email = "john@gmail.com";
 
+// Array
 const toDos = [
   {
     id: 1,
@@ -52,6 +55,7 @@ const toDos = [
   },
 ];
 
+// For loop
 for (let toDo of toDos) {
   console.log(toDo.id);
 }
