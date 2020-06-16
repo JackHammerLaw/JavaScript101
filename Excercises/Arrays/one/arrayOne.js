@@ -21,6 +21,7 @@ function insertElementAtIndex() {
   return fruitsArray;
 }
 
+// Insert 'grape' after 'banana'
 function insertElementAtIndex() {
   const fruitsArray = ["apple", "banana", "orange"];
 
