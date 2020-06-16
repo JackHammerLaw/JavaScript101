@@ -1,4 +1,8 @@
-const { removeLastElement, insertElementAtIndex } = require("./arrayOne");
+const {
+  removeLastElement,
+  insertElementAtIndex,
+  removeElementAtIndex,
+} = require("./arrayOne");
 const expect = require("chai").expect;
 
 describe("Array One", function () {
@@ -11,5 +15,10 @@ describe("Array One", function () {
     const arr = insertElementAtIndex();
     expect(arr).to.have.lengthOf(4);
     expect(arr).to.deep.equal(["apple", "banana", "grape", "orange"]);
+  });
+  it("Remove correct element", function () {
+    const arr = insertElementAtIndex();
+    expect(arr).to.have.lengthOf(3);
+    expect(arr).to.deep.equal(["toyota", "honda", "hummer"]);
   });
 });
