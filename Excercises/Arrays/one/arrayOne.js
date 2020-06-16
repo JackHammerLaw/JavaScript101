@@ -6,8 +6,8 @@
 // Remove the last element from elementsArray and return elements array
 function removeLastElement() {
   const numbersArray = ["one", "two", "three", "four", "five"];
-  //Wrie your code here
-  numbersArray.pop();
+  //Write your code here
+  numbersArray.pop(); //.pop removes last element
 
   return numbersArray;
 }
@@ -16,25 +16,19 @@ function removeLastElement() {
 function insertElementAtIndex() {
   const fruitsArray = ["apple", "banana", "orange"];
 
-  //Wrie your code here
+  //Write your code here
+  fruitsArray.splice(2, 0, "grape"); //element number 2, delete nothing, add grape
 
   return fruitsArray;
 }
 
-// Insert 'grape' after 'banana'
-function insertElementAtIndex() {
-  const fruitsArray = ["apple", "banana", "orange"];
-
-  //Wrie your code here
-
-  return fruitsArray;
-}
 
 // Remove 'mercedez' from carsArray
 function removeElementAtIndex() {
   const carsArray = ["toyota", "honda", "mercedez", "hummer"];
 
   //Wrie your code here
+  carsArray.splice(2, 1) //element number 2, delete one value
 
   return carsArray;
 }
