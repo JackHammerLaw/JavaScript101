@@ -2,6 +2,9 @@ const {
   removeLastElement,
   insertElementAtIndex,
   removeElementAtIndex,
+  concatArrays,
+  extractElements,
+  getTheIndexOfItem,
 } = require("./arrayOne");
 const expect = require("chai").expect;
 
@@ -20,5 +23,19 @@ describe("Array One", function () {
     const arr = removeElementAtIndex();
     expect(arr).to.have.lengthOf(3);
     expect(arr).to.deep.equal(["toyota", "honda", "hummer"]);
+  });
+  it("Concat two arrays", function () {
+    const arr = concatArrays();
+    expect(arr).to.have.lengthOf(6);
+    expect(arr).to.deep.equal(["a", "b", "c", "d", "e", "f"]);
+  });
+  it("Extract the correct elements from the array", function () {
+    const arr = extractElements();
+    expect(arr).to.have.lengthOf(2);
+    expect(arr).to.deep.equal(["Rodgers", "Flaco"]);
+  });
+  it("Return the correct index", function () {
+    const arr = getTheIndexOfItem();
+    expect(arr).to.equal(2);
   });
 });
