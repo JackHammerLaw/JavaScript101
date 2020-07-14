@@ -1,0 +1,149 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.container{
+    flex:1;
+    margin:auto;
+    margin-left:170px;
+    margin-right:0px;
+    display:flex;
+    flex-direction: row;
+ }
+.catrow{
+    text-align:left;
+    display:inline-block;
+    overflow-block:block;
+    width:100%;
+    word-spacing:2px;
+    padding:5px;
+    margin:0px;
+    margin-left: 170px;
+    margin-bottom: 0px;
+    background-color: white;
+}
+.cat{ 
+    display:inline-block;
+    width:130px;
+    height:20px;
+    border:1px solid gray;
+    border-radius:15px;
+    padding:1px;
+    margin:0px;
+    box-sizing:border-box;
+    text-align:center;
+}
+
+.sidenav{
+    position:fixed;
+    margin-top:40px;
+    height:100%;
+    width:160px;
+    background-color:gainsboro;
+    z-index:1;
+    top:0;
+    left:50;
+    overflow-x:hidden;
+    padding-top:0px;
+}
+.sidenav:hover{
+    overflow-y:scroll;
+}
+
+.sidenav a{
+    padding:12px 8px 16px 16px;
+    text-decoration:none;
+    font-size:15px;
+    color:red;
+    display:block;
+}
+
+.sidenav h5{
+    color: gray;
+    padding-top: 5px;
+}
+
+.block{
+    position: relative;
+    display:inline-block;
+    float:left;
+    overflow:auto;
+    width:295px;
+    height:200px;
+    border:1px solid whitesmoke;
+    padding:1px;
+    padding-top:2px;
+    margin:0px;
+    box-sizing:border-box;
+    text-align:center;
+}
+
+.block h5{
+    font-size:12px;
+    text-align: left;
+    padding-left:50px;
+    padding-right:15px;
+}
+
+.block p{
+    font-size:11px;
+    text-align:left;
+    color:gray;
+    padding-left:50px;
+}
+.p-box{
+    width:90%;
+    height:68%;
+    position:right;
+    padding-top: 2px;
+    padding-right: 0px;
+    padding:0px;
+}
+
+.vidrow{
+    display:inline-block;
+    text-align:center;
+    align-self:center;
+    flex:1;
+    margin:5px;
+    background-color:gainsboro;
+}
+
+.viddesc{
+    display: inline-block;
+}
+
+.channelLogo{
+    /* position: absolute;
+    left:0;
+    top:3;
+    height: 35px;
+    border-radius: 15px; */
+}
+
+.logo-box{
+    border-radius:25px;
+    height:30px;
+    width:30px;
+    margin-left:16px;
+    position: absolute;
+    left:0;
+    top:3;
+    height: 35px;
+    border-radius: 15px;
+}
+
+.vidlength{
+    position: relative;
+}
+
+.timertext{
+    z-index: 50;
+    font-size: 90px;
+    position: absolute;
+    bottom:10px;
+    right:10px;
+    background-color: black;
+}
+
