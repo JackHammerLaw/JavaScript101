@@ -1,0 +1,24 @@
+
+.sidenav{
+    position:fixed;
+    height:100%;
+    width:160px;
+    background-color:gainsboro;
+    z-index:1;
+    top:0;
+    left:50;
+    overflow-x:hidden;
+    padding-top:90px;
+}
+.sidenav:hover{
+    overflow-y:scroll;
+}
+
+.sidenav a{
+    padding:12px 8px 16px 16px;
+    text-decoration:none;
+    font-size:15px;
+    color:red;
+    display:block;
+}
+
